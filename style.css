@@ -53,7 +53,7 @@ ul{
 
 .navbar-left{
     display: flex;
-    margin-left: 20px;
+    margin-left: 0px;
     text-transform: uppercase;
     font-weight: bold;
     flex: 1;
@@ -89,7 +89,7 @@ ul{
 
 
 .section-1{
-    height: 1100px;
+    height: 990px;
     background: #e22020;
    
    
@@ -99,16 +99,16 @@ ul{
 .section-1-img-background img{
 
  width: 100%;
- height: cover;
+ height: auto;
 }
 
 
 
 .section-1-left{
-    border: 1px solid black;
+
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 100px;
     height: auto;
     padding: 20px 5px 0 120px;
     align-items: center;
@@ -118,10 +118,13 @@ ul{
 
 }
 
+.section-1-left p{
+    margin: 0 70px 0 0 ;
+}
+
 .section-1-right{
 
     align-items: left;
-    border: 1px solid black;
     display: flex;
     width: 200px;
     height: auto;
@@ -165,6 +168,13 @@ ul{
     font-size: 1rem;
     color: #e22020;
     justify-content: left;
+    margin-right: 400px;
+    margin-top: 20px;
 }
 
 
+.section-1-text{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
