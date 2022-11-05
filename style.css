@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -89,7 +89,7 @@ ul{
 
 
 .section-1{
-    height: 990px;
+    min-height: 990px;
     background: #e22020;
    
    
@@ -99,7 +99,8 @@ ul{
 .section-1-img-background img{
 
  width: 100%;
- height: auto;
+ margin-top: 90px;
+
 }
 
 
@@ -172,9 +173,21 @@ ul{
     margin-top: 20px;
 }
 
+.section-1 .btn:hover{
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
 
 .section-1-text{
     display: flex;
     flex-direction: row;
     width: 900px;
+}
+
+.middle h1{
+    margin-top: 60px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
