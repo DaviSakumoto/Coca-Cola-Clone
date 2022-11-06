@@ -7,6 +7,10 @@
 
 }
 
+:root{
+    --cor-background:#f5f5f5;
+}
+
 
 body{
     font-family: 'Kanit', sans-serif;
@@ -89,7 +93,7 @@ ul{
 
 
 .section-1{
-    min-height: 990px;
+    min-height: 1100px;
     background: #e22020;
    
    
@@ -190,4 +194,20 @@ ul{
     justify-content: center;
     letter-spacing: 1px;
     margin-bottom: 30px;
+}
+
+.b-cont{
+    width: 900px;
+
+}
+
+.section-A{
+    background-image: url(imagens/coca-cola-creations.png) ;
+    background-repeat: no-repeat;
+    height: 490px;
+    width: 1190px;
+    display: flex;
+    /* alterar a margin top */
+   margin: 40px auto;
+   border-radius: 20px;
 }
