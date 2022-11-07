@@ -316,3 +316,24 @@ ul{
 .banner-1 .button:hover{
     background-color:#cf1c28;
 }
+
+.banner-2{
+    background-image: url(imagens/en-home-title-only.png);
+    border: 1px solid black;
+  
+}
+
+.banner-2 .all{
+    display: flex;
+    flex-direction: row;
+    
+
+
+   
+}
+
+.b2-img img{
+    height: 180px;
+    width: 180px;
+   
+}
