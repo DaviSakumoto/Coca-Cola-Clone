@@ -44,7 +44,7 @@ ul{
     padding: 20px;
     position: fixed;
     font-weight: normal;
-   
+    justify-content: space-around
 
 }
 
@@ -284,7 +284,7 @@ ul{
 
 .banner-1 .texto{
     width: 50%;
-    padding: 50px;
+    padding: 40px;
   
 }
 
@@ -323,20 +323,85 @@ ul{
 .banner-2{
     background-image: url(imagens/en-home-title-only.png);
     background-color: #fff;
+    /* util */
+    background-position: top;
+   
   
+}
+
+.banner-3{
+    background-image: url(imagens/coca-cola-value-home-tile-desktop.png);
 }
 
 .banner-2 .all{
-    display: flex;
-    flex-direction: row;
-  
-
-
-   
+    
+  display: flex;
+    height: 100%;
+    align-items: flex-end;
+    padding: 10px;
 }
+
+.all .texto{
+  
+    padding: 50px;
+}
+
+.all .texto h1{
+    font-size: 32px;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+
+.all .texto .button{
+    text-transform: uppercase;
+    padding: 15px  30px;
+    color: #fff;
+    border: none;
+    border-radius: 150px;
+    font-weight: bold;
+    background-color: #000;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+
+
+.banner-2 .all .texto .button:hover{
+    background-color: #474747;
+}
+
 
 .b2-img img{
     height: 180px;
     width: 180px;
    
 }
+
+.banner-3 .all h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.banner-3 .all p{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.banner-3 .all .button{
+    margin: 10px 10px;
+    border-color: none;
+    background-color: #fff;
+    color: var(--cor-coca);
+
+}
+
+.banner-3 .all{
+  
+    text-align: left;
+    justify-self: center;
+   margin-left: 57%;
+
+}
+
