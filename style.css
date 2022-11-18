@@ -397,11 +397,48 @@ ul{
 
 }
 
+.banner-3 .all .button:hover{
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+
+
 .banner-3 .all{
   
     text-align: left;
     justify-self: center;
    margin-left: 57%;
+   padding-top: 55px;
+
 
 }
 
+
+.grid-col-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    height: 490px;
+    max-width: 1190px;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px solid black;
+ 
+   
+}
+
+
+.box #direct{
+    background-image: url(imagens/coke-direct-tile.png);
+    
+  
+}
+
+.box #favorite{
+    background-image: url(imagens/COKE-476-Imagedesktop.png);
+}
