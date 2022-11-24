@@ -504,3 +504,53 @@ ul{
  background-color: #cf1c28;
 }
 
+.memories{
+    height:900px;
+    padding: 70px;
+}
+
+.memories .container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.memories .container .texto{
+   
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.memories .container .texto #super{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--cor-coca);
+}
+
+.memories .container .texto h1{
+    margin-top: 15px;
+    font-size: 45px;
+    line-height: 1;
+}
+
+.memories .container .texto p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.memories .container .texto .button{
+    margin-top: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #f40000;
+    color: #fff;
+    padding: 7px 120px;
+    border-radius: 150px;
+    font-weight: bold;
+
+}
+
+.memories .container .texto .button:hover{
+    background-color:var(--cor-coca);
+}
+
