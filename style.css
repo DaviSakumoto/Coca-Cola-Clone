@@ -554,3 +554,52 @@ ul{
     background-color:var(--cor-coca);
 }
 
+
+#footer{
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 60px 0;
+
+}
+
+#footer a{
+    color: #fff; 
+}
+
+#footer .footer-content a{
+    color: #abaeae;
+}
+
+#footer hr{
+   
+
+}
+
+#footer .footer-content{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+
+
+}
+
+#footer .footer-content .footer-menu{
+    margin: 0 40px;
+
+    list-style: none; 
+    border: 1px solid red;
+   
+}
+
+#footer .footer-content .footer-menu #title{
+    font-weight: bold;
+}
+
+#footer .footer-content .footer-menu .footer-shop-item, .footer-help-item, .footer-explore-item,
+.footer-legal-item{
+    margin: 15px;
+  
+  
+
+}
