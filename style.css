@@ -580,17 +580,32 @@ ul{
     width: 90%;
     margin: auto;
     justify-content: space-between;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
 
 
 }
 
 #footer .footer-content .footer-menu{
-    margin: 0 40px;
-
+    margin: 0 10px;
     list-style: none; 
-    border: 1px solid red;
+
+
    
 }
+
+
+#footer .footer-content .footer-menu li{
+    width: 120px; 
+    font-size: 15px;
+}
+
+
+#footer .footer-content .footer-menu li a:hover{
+    text-decoration: underline;
+}
+
 
 #footer .footer-content .footer-menu #title{
     font-weight: bold;
@@ -601,5 +616,63 @@ ul{
     margin: 15px;
   
   
+
+}
+
+.footer-menu-form{
+    width: 500px;
+}
+
+.footer-menu-form #title{
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.footer-menu-form #t-sub{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.footer-menu-form #email{
+    font-size: 13px;
+    margin-bottom: 5px;
+  
+}
+
+.footer-menu-form input[type="text"]{
+    width: 75%;
+    padding: 12px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-menu-form #dob{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+select[name="day"],
+select[name="year"],
+select[name="month"]{
+    
+    width: 75%;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+
+.data{
+    width: 325px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+select{
+    background: #fff;
 
 }
