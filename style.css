@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap'); 
+
+
+
+
 
 *{
     box-sizing: border-box;
@@ -31,7 +35,9 @@ ul{
 .navbar-brand img{
     height: 50px;
     width: 50px;
-    flex: 0;
+    display: flex;
+   justify-content: end;
+
 
   
     
@@ -44,7 +50,8 @@ ul{
     padding: 20px;
     position: fixed;
     font-weight: normal;
-    justify-content: space-around
+    justify-content: space-around;
+
 
 }
 
@@ -58,17 +65,19 @@ ul{
 
 .navbar-left{
     display: flex;
-    margin-left: 0px;
+    margin-left: 120px;
     text-transform: uppercase;
     font-weight: bold;
     flex: 1;
-   
+
+ 
+ 
 }
 
 .navbar-left a:hover{
     color:#f40000;
     border-bottom: 5px solid #f40000;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 
 .navbar-right a:hover{
@@ -76,7 +85,7 @@ ul{
 }
 
 .navbar-left  li{
-   padding-left: 30px;
+   padding-left: 45px;
 }
 
 .navbar-right{
@@ -506,12 +515,16 @@ ul{
 
 .memories{
     height:900px;
+  max-width: 1300px;
     padding: 70px;
+    margin: 0 auto;
+  
 }
 
 .memories .container{
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -519,6 +532,7 @@ ul{
    
     margin-left: 200px;
     margin-top: 150px;
+    width: 50%;
 }
 
 .memories .container .texto #super{
@@ -731,19 +745,23 @@ select{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-     align-items: center;
+  
+  
      margin-top: 20px;
+    
 
 }
 
 .footer-info .footer-info-items{
     display: flex;
     flex-direction: row;
- 
+       margin: 10px auto; 
+      
+     
 }
 
 .footer-info .footer-info-items li{
-    margin-right: 10px;
+    margin-right: 13px;
 
 }
 
@@ -755,4 +773,8 @@ select{
 .footer-info .footer-info-items #logo{
     height: 27px;
     margin-right: 80px;
+}
+
+#footer .footer-info{
+    font-size: 15px;
 }
