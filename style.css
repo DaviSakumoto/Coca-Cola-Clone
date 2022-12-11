@@ -778,3 +778,28 @@ select{
 #footer .footer-info{
     font-size: 15px;
 }
+
+.ham-menu{
+    display: none;
+}
+
+@media(max-width:768px){
+
+    .navbar-left{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin-left: 100px;
+    }
+
+    .ham-menu{
+        display: block;
+        justify-content: flex-end;
+        font-size: 25px;
+    }
+
+
+
+   
+}
