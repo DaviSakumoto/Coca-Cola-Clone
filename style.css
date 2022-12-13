@@ -8,7 +8,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 :root{
@@ -570,23 +569,23 @@ ul{
 }
 
 
-#footer{
+.footer{
     background-color: #1e1e1e;
     color: #fff;
     padding: 60px 0;
 
 }
 
-#footer a{
+.footer a{
     color: #fff; 
 }
 
-#footer .footer-content a{
+.footer .footer-content a{
     color: #abaeae;
 }
 
 
-#footer .footer-content{
+.footer .footer-content{
     display: flex;
     width: 90%;
     margin: auto;
@@ -598,7 +597,7 @@ ul{
 
 }
 
-#footer .footer-content .footer-menu{
+.footer .footer-content .footer-menu{
     margin: 0 10px;
     list-style: none; 
 
@@ -607,22 +606,22 @@ ul{
 }
 
 
-#footer .footer-content .footer-menu li{
+.footer .footer-content .footer-menu li{
     width: 120px; 
     font-size: 15px;
 }
 
 
-#footer .footer-content .footer-menu li a:hover{
+.footer .footer-content .footer-menu li a:hover{
     text-decoration: underline;
 }
 
 
-#footer .footer-content .footer-menu #title{
+.footer .footer-content .footer-menu #title{
     font-weight: bold;
 }
 
-#footer .footer-content .footer-menu .footer-shop-item, .footer-help-item, .footer-explore-item,
+.footer .footer-content .footer-menu .footer-shop-item, .footer-help-item, .footer-explore-item,
 .footer-legal-item{
     margin: 15px;
   
@@ -804,6 +803,46 @@ select{
 }
 
 
+/* menu */
+
+.menu-open{
+    display: none; 
+     position: fixed;
+     top: 90px;
+     left: 0px;
+     z-index: 1;
+     height: 100%;
+     width: 100%;
+ }
+
+
+ .menu-box{
+    
+    width: 100%;
+    background: #f0f0f0;
+    color: #000;
+}
+
+.menu-body{
+    padding: 10px;
+}
+
+.menu-body li{
+    padding: 10px;
+    border-bottom: #1e1e1e 1px solid;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    left: 90px;
+
+}
+
+.menu-body li:last-of-type{
+    border-bottom: none;
+}
+
+
+
 @media(max-width:768px){
 
     .navbar-left{
@@ -872,26 +911,33 @@ select{
    .section-A  {
         background-image: url(imagens/coca-cola-creations-mobile-no-logo.png);
         background-size: cover;
+       
    }
 
    .section-A img{
     display: block;
     height: 120px;
     margin: 30px 0px 0px 200px;
-  
-  
+    width: auto;
+    height: auto;
+   
    }
  
   
    .section-A .texto {
-        left: 160px;
+        height: 300px;
         width: 100%;
+    
+    
+      
 
-   
+    
+        
    }
 
    .section-A .texto h1{
     font-size: 20px;
+ 
    }
 
    .section-A .button{
@@ -911,6 +957,11 @@ select{
 
    .banner-3{
     background: url(imagens/coca-cola-value-homepage-tile-mobile.png) no-repeat center center/cover;
+   }
+
+   .banner-3 .texto{
+   
+    
    }
 
    .grid-col-2{
@@ -941,13 +992,16 @@ select{
         
    }
 
-   .footer-content{
-       
-   }
+  .footer{
+    display: none;
+    
+  }
 
+  .menu-open{
+    
+  }
 
-
-   
+ 
 
  
 }
